@@ -11,7 +11,7 @@ public class Main {
         Person p2 = new Person("2", "José", "Rua Y",d2);
 
         System.out.println("ID = " + p1.getIdNumber());
-        System.out.println("Nascimento = " + getDate);
+       // System.out.println("Nascimento = " + getDate);
         System.out.println("Data = " + d1.getYear());
         System.out.println("Data = " + p2.getBirth());
     }
