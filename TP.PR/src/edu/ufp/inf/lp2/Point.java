@@ -40,11 +40,11 @@ public class Point {
         return this.y > uppt.y && this.y < downpt.y;
     }
     public static void main(String[] args){
-        Point p1 = new Point(1.0F,2.0F);
-        Point p2 = new Point(2.0F,1.0F);
+        Point p1 = new Point(1.0F,1.1F);
+        Point p2 = new Point(1.0F,1.0F);
 
         System.out.println(p1.toString());
-
+        System.out.println(p1.equals(p2));
 
     }
 
