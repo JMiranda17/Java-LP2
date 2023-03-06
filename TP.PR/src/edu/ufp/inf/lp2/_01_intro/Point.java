@@ -1,4 +1,4 @@
-package edu.ufp.inf.lp2;
+package edu.ufp.inf.lp2._01_intro;
 import java.util.*;
 
 
@@ -54,6 +54,22 @@ public class Point {
                 "x=" + x +
                 ", y=" + y +
                 '}';
+    }
+
+    public float getX() {
+        return x;
+    }
+
+    public void setX(float x) {
+        this.x = x;
+    }
+
+    public float getY() {
+        return y;
+    }
+
+    public void setY(float y) {
+        this.y = y;
     }
 
     @Override

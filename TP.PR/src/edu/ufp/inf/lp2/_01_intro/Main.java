@@ -1,4 +1,4 @@
-package edu.ufp.inf.lp2;
+package edu.ufp.inf.lp2._01_intro;
 
 
 public class Main {
