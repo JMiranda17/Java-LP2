@@ -16,7 +16,11 @@ public class MyArrayListsDemo {
 
     }
 
-    public static void testGenerifiedArrayLists(){};
+    public static void testGenerifiedArrayLists(){
+        ArrayList <Point> arrPs = new ArrayList<>();
+        arrPs.add(new Point(1.0f,1.0f));
+        Point p = arrPs.get(0);
+    };
 
     public static void main(String[] args) {
 
