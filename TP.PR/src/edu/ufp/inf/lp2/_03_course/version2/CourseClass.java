@@ -13,7 +13,38 @@ public class CourseClass {
     *
    */
   private List<Student> students;
-    /**
+
+  public String getName() {
+    return name;
+  }
+
+  public void setName(String name) {
+    this.name = name;
+  }
+
+  public List<Student> getStudents() {
+    return students;
+  }
+
+  public void setStudents(List<Student> students) {
+    this.students = students;
+  }
+
+  public List<Discipline> getDisciplines() {
+    return disciplines;
+  }
+
+  public void setDisciplines(List<Discipline> disciplines) {
+    this.disciplines = disciplines;
+  }
+
+  public CourseClass(String name, List<Student> students, List<Discipline> disciplines) {
+    this.name = name;
+    this.students = students;
+    this.disciplines = disciplines;
+  }
+
+  /**
     * 
     *
    */
@@ -49,6 +80,10 @@ public class CourseClass {
   }
 
   public void associateGrade2Discipline(String disciplineName, long studentNumber, float grade) {
+  }
+
+  public static void main(String[] args) {
+
   }
 
 }

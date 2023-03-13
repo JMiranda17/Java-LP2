@@ -6,6 +6,63 @@ import edu.ufp.inf.lp2._01_intro.Date;
 import edu.ufp.inf.lp2._01_intro.Person;
 
 public class Student extends edu.ufp.inf.lp2._01_intro.Person {
+  public Student(String idNumber, String name, String address, Date birth, long number, Date registration, String email, String password, CourseClass courseClass, List<Grade> grades) {
+    super(idNumber, name, address, birth);
+    this.number = number;
+    this.registration = registration;
+    this.email = email;
+    this.password = password;
+    this.courseClass = courseClass;
+    this.grades = grades;
+  }
+
+  public long getNumber() {
+    return number;
+  }
+
+  public void setNumber(long number) {
+    this.number = number;
+  }
+
+  public Date getRegistration() {
+    return registration;
+  }
+
+  public void setRegistration(Date registration) {
+    this.registration = registration;
+  }
+
+  public String getEmail() {
+    return email;
+  }
+
+  public void setEmail(String email) {
+    this.email = email;
+  }
+
+  public String getPassword() {
+    return password;
+  }
+
+  public void setPassword(String password) {
+    this.password = password;
+  }
+
+  public CourseClass getCourseClass() {
+    return courseClass;
+  }
+
+  public void setCourseClass(CourseClass courseClass) {
+    this.courseClass = courseClass;
+  }
+
+  public List<Grade> getGrades() {
+    return grades;
+  }
+
+  public void setGrades(List<Grade> grades) {
+    this.grades = grades;
+  }
 
   private long number;
 
@@ -33,7 +90,7 @@ public class Student extends edu.ufp.inf.lp2._01_intro.Person {
   return null;
   }
 
-  public Grade changeGrade( float, float g, String nd, Date d) {
+  public Grade changeGrade( float ng, float g, String nd, Date d) {
   return null;
   }
 
@@ -60,4 +117,9 @@ public class Student extends edu.ufp.inf.lp2._01_intro.Person {
   return null;
   }
 
+  public static void main(String[] args) {
+
+
+
+  }
 }

@@ -14,8 +14,44 @@ public class Grade {
 
   private Student student;
 
-    private Student student;
-    private Discipline discipline;
+  public float getGrade() {
+    return grade;
+  }
+
+  public void setGrade(float grade) {
+    this.grade = grade;
+  }
+
+  public Date getDate() {
+    return date;
+  }
+
+  public void setDate(Date date) {
+    this.date = date;
+  }
+
+  public Discipline getDiscipline() {
+    return discipline;
+  }
+
+  public void setDiscipline(Discipline discipline) {
+    this.discipline = discipline;
+  }
+
+  public Student getStudent() {
+    return student;
+  }
+
+  public void setStudent(Student student) {
+    this.student = student;
+  }
+
+  public Grade(float grade, Date date, Discipline discipline, Student student) {
+    this.grade = grade;
+    this.date = date;
+    this.discipline = discipline;
+    this.student = student;
+  }
 
   public Discipline associatedDiscipline() {
   return null;
@@ -31,4 +67,7 @@ public class Grade {
   public void associateStudent(Student student) {
   }
 
+  public static void main(String[] args) {
+
+  }
 }
